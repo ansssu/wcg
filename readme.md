@@ -20,10 +20,12 @@ To get **wcg** up and running on your machine, follow these super simple steps:
 git clone https://github.com/YOUR_USERNAME/wcg.git
 cd wcg
 make install
+```
+
 Usage
 Using wcg is as easy as pie 🍰. Just run:
 
-sh
+```sh
 wcg [options] [file...]
 Options:
 -w : Count the words. Because words matter.
@@ -33,23 +35,24 @@ Options:
 -c : Count the characters. Size does matter.
 
 -h : Help. Because everyone needs a little help sometimes.
+```
 
 Examples
 Count all the things:
 
-sh
+```sh
 wcg -wlc myfile.txt
+```
 Get just the words (because you're a minimalist):
 
-sh
+```sh
 wcg -w myfile.txt
+```
 Contributing
 Want to make wcg even cooler? Fork the repo, make your changes, and send a PR. We promise to review it while sipping some virtual coffee. ☕
 
 License
 Licensed under the MIT License. Because sharing is caring.
 
-Made with ❤️ by [YOUR_NAME]. Because counting words shouldn't be boring.
-
-
+Made with ❤️ by Anderson Ribeiro. Because counting words shouldn't be boring.
 Looks good to go! Get those word counts going with **wcg**! 🚀
